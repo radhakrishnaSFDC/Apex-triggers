@@ -1,10 +1,1 @@
-trigger MyTriggerName on ObjectName (before insert, before update) {
-    if (Trigger.isBefore) {
-        if (Trigger.isInsert) {
-            // Code to run before records are inserted
-        }
-        if (Trigger.isUpdate) {
-            // Code to run before records are updated
-        }
-    }
-}
+Apex triggers are pieces of code that execute before or after a record is inserted, updated, or deleted. They can be used to perform various tasks, including creating related records, validating data, and enforcing business rules
